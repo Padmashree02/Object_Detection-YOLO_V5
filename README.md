@@ -31,7 +31,7 @@ Solution :-
 
       : Read the model's files using ONNX.
      
-      : Load and extract the class names from the class file- coco dataset.
+      : Load and extract the class names from the class file- coco dataset (80 classes).
 
       : Set the confidence threshold, nms threshold value- detects how well the object is detected in the detected bounding box. 
         Set the default image's height and width as per YOLO V5 model's architecture
@@ -61,5 +61,4 @@ Solution :-
 
 Result :- 
 
-  > By executing the code through each YOLO V5 models, the conclusion is YOLO V5's extra large type of model yields an accurate with diverse detections, followed by then large, medium, small and nano models.
-
+  > By executing the code through each YOLO V5 models, the conclusion is YOLO V5's medium type of model yields an accurate with diverse detections, followed by then large, extra large, small and nano models.
